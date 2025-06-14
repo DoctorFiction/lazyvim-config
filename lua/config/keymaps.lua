@@ -3,3 +3,6 @@
 -- Add any additional keymaps here
 -- ESC to jj for quick NORMAL mode
 vim.keymap.set("i", "jj", "<ESC>", { silent = true })
+vim.keymap.set("n", "<leader>;", function() require("snacks").dashboard.open() end, opts)
+
+
