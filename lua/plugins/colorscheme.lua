@@ -8,6 +8,9 @@ return {
   { "craftzdog/solarized-osaka.nvim" },
   { "rose-pine/neovim" },
   { "scottmckendry/cyberdream.nvim" },
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000, opts = {
+    transparent_background = true,
+  } },
   {
     "folke/tokyonight.nvim",
     opts = {
@@ -21,7 +24,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "catppuccin",
     },
   },
 }
