@@ -1,3 +1,3 @@
-return {
-  "DoctorFiction/logdown.nvim",
-}
+-- return {
+--   "DoctorFiction/logdown.nvim",
+-- }
