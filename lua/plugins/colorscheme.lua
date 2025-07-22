@@ -26,7 +26,7 @@ return {
       vim.g.sonokai_transparent_background = 1
     end,
   },
-  { "Mofiqul/vscode.nvim" },
+  { "Mofiqul/vscode.nvim", opts = { transparent = true } },
   {
     "Mofiqul/dracula.nvim",
     opts = {
@@ -62,7 +62,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "vscode",
     },
   },
 }
