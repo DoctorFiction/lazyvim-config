@@ -6,3 +6,5 @@ vim.keymap.set("i", "jj", "<ESC>", { silent = true })
 vim.keymap.set("n", "<leader>;", function()
   require("snacks").dashboard.open()
 end, { desc = "Dashboard" })
+
+vim.keymap.set("n", "<leader>fl", "<cmd>Telescope live_grep<cr>", { desc = "Live Grep" })
