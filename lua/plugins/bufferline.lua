@@ -12,6 +12,7 @@ return {
       max_name_length = math.huge,
       max_prefix_length = math.huge,
       truncate_names = false,
+      always_show_bufferline = true,
     },
   },
 }
